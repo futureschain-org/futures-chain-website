@@ -8123,6 +8123,9 @@ button:focus,button:hover,input:focus,input:hover{
   -ms-flex-pack:justify;
   justify-content:space-between
 }
+.partners__logo {
+  cursor: pointer;
+}
 .partners__logo img{
   opacity:.25;
   -webkit-transition:.4s;
@@ -9638,7 +9641,7 @@ button:focus,button:hover,input:focus,input:hover{
       justify-content:center
   }
   .partners__logo{
-      margin:0 45px 40px 0
+    margin:0 45px 40px 0
   }
   .about__img-1,.about__img-2{
       position:relative;
