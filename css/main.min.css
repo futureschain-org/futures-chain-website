@@ -7777,6 +7777,38 @@ button:focus,button:hover,input:focus,input:hover{
 .menu__item:last-child{
   margin-right:0
 }
+.tooltip {
+  position: relative;
+}
+.tooltiptext  {
+  visibility: hidden;
+  color: white;
+  background-color: #FE794E;
+  text-align: center;
+  padding: 0 10px;
+  border-radius: 6px;
+  white-space: nowrap;
+  font-size: 12px;
+  line-height: 22px;
+  position: absolute;
+  top: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+}
+.tooltiptext:after{
+  content: "";
+  position: absolute;
+  top: 22px;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 0px;
+  border: 7px solid transparent;
+  border-top-color: #FE794E;
+}
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
 .menu__link{
   color:#fff;
   position:relative;
