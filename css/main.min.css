@@ -7932,6 +7932,10 @@ button:focus,button:hover,input:focus,input:hover{
   white-space:nowrap;
   margin-right:22px;
 }
+.big-btn-sign-in {
+  width: 150px;
+  min-width: 150px;
+}
 .btn-sign-in:hover{
   color:#fff;
   background-color:#333
