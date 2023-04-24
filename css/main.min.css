@@ -8119,9 +8119,10 @@ button:focus,button:hover,input:focus,input:hover{
   -ms-flex-align:center;
   align-items:center;
   -webkit-box-pack:justify;
-  -webkit-justify-content:space-between;
+  /* -webkit-justify-content:space-between; */
   -ms-flex-pack:justify;
-  justify-content:space-between
+  /* justify-content:space-between; */
+  flex-wrap: wrap;
 }
 .partners__logo {
   cursor: pointer;
@@ -8130,7 +8131,9 @@ button:focus,button:hover,input:focus,input:hover{
   opacity:.25;
   -webkit-transition:.4s;
   -o-transition:.4s;
-  transition:.4s
+  transition:.4s;
+  height: 50px;
+  margin: 0 50px 30px 0;
 }
 .partners__logo:hover img{
   opacity:.5
@@ -9641,7 +9644,11 @@ button:focus,button:hover,input:focus,input:hover{
       justify-content:center
   }
   .partners__logo{
-    margin:0 45px 40px 0
+    margin:0 45px 40px 0;
+  }
+  .partners__logo img{
+    height: 30px;
+    margin: 0;
   }
   .about__img-1,.about__img-2{
       position:relative;
