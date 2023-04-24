@@ -8122,7 +8122,9 @@ button:focus,button:hover,input:focus,input:hover{
   /* -webkit-justify-content:space-between; */
   -ms-flex-pack:justify;
   /* justify-content:space-between; */
-  flex-wrap: wrap;
+  -webkit-flex-wrap:wrap;
+      -ms-flex-wrap:wrap;
+      flex-wrap:wrap;
 }
 .partners__logo {
   cursor: pointer;
@@ -8684,6 +8686,7 @@ button:focus,button:hover,input:focus,input:hover{
   background-attachment:fixed
 }
 .app:after{
+  display: none;
   content:'';
   position:absolute;
   top:0;
